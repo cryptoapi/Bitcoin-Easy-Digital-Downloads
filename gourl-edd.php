@@ -460,7 +460,7 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 			global $gourl;
 			
 			
-			if (edd_get_payment_gateway($payment->ID) != "gourl") return true;
+			if (!is_object($payment) || edd_get_payment_gateway($payment->ID) != "gourl") return true;
 			
 			// Current Order Details
 			$status			= $payment->post_status;
@@ -651,7 +651,7 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 
 	
  }
- // end gourl_edd_gateway_load()  
- 
- 
+ // end gourl_edd_gateway_load()
+
+
 }
