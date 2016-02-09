@@ -3,7 +3,7 @@
 Plugin Name: 		GoUrl Easy Digital Downloads (EDD) - Bitcoin Altcoin Payment Gateway
 Plugin URI: 		https://gourl.io/bitcoin-easy-digital-downloads-edd.html
 Description:		Provides a <a href="https://gourl.io">GoUrl.io</a> Bitcoin/Altcoin Payment Gateway for <a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads 2.4.2+</a>. Direct Integration on your website, no external payment pages opens (as other payment gateways offer). Accept Bitcoin, Litecoin, Paycoin, Dogecoin, Dash, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Vericoin, Peercoin, MonetaryUnit payments online. You will see the bitcoin/altcoin payment statistics in one common table on your website. No Chargebacks, Global, Secure. All in automatic mode.
-Version: 			1.0
+Version: 			1.0.1
 Author: 			GoUrl.io
 Author URI: 		https://gourl.io
 License: 			GPLv2
@@ -27,7 +27,7 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 	/*
 	 *	1. Localisation
 	*/
-	function gourl_edd_load_textdomain() 
+	function gourl_edd_load_textdomain()
 	{
 		load_plugin_textdomain( GOURLEDD, false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
@@ -433,6 +433,8 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 	    	{
     			// Save Log
 	    		$userID		= edd_get_payment_user_id( $payment_id );
+	    		if ($userID == "-1") $userID = 0;
+	    		
 	    		$user 		= (!$userID) ? __('Guest', GOURLEDD) : "<a href='".admin_url("user-edit.php?user_id=".$userID)."'>user".$userID."</a>";
 	    		edd_insert_payment_note( $payment_id, sprintf(__('Order Created by %s. <br/>Awaiting cryptocurrency payment ...', GOURLEDD ), $user) . ' <br/>');
 	    		
@@ -466,9 +468,10 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 			$status			= $payment->post_status;
 			$amount 		= edd_get_payment_amount( $payment->ID );
 			$currency 		= edd_get_payment_currency_code ($payment->ID );
-			$userID			= edd_get_payment_user_id( $payment->ID );
 			$orderID		= "order" . $payment->ID;
-			
+			$userID			= edd_get_payment_user_id( $payment->ID );
+			if ($userID == "-1") $userID = 0;
+				
 			
 			// file shortcode-receipt.php
 			// filter 'edd_payment_receipt_before' inside <table>
@@ -651,7 +654,7 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 
 	
  }
- // end gourl_edd_gateway_load()
+ // end gourl_edd_gateway_load()  
 
 
 }

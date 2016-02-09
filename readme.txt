@@ -5,8 +5,8 @@ Plugin URI: https://gourl.io/bitcoin-easy-digital-downloads-edd.html
 Author URI: https://gourl.io 
 Tags: easy digital downloads, edd, bitcoin, bitcoins, gourl, cryptocurrency, btc, coinbase, bitpay, ecommerce, paypal, accept bitcoin, shop, payment, payment gateway, digital downloads, download, downloads, e-commerce, e-downloads, e-store, ecommerce, eshop, selling, wp ecommerce, litecoin, dogecoin, darkcoin, dash, speedcoin, vertcoin, reddcoin, feathercoin, vericoin, potcoin, paycoin, monetaryunit, peercoin
 Requires at least: 3.5
-Tested up to: 4.3
-Stable Tag: 1.0
+Tested up to: 4.5
+Stable Tag: 1.0.1
 License: GNU Version 2 or Any Later Version
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,8 +89,10 @@ In the search field type "GoUrl Easy Digital Downloads" and click Search Plugins
 
 
 
-== Changelog == 
+== Changelog ==
+
+= 1.0.1 =
+Minor updates
 
 = 1.0 =
 Initial Release
-     
