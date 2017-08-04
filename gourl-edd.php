@@ -2,8 +2,8 @@
 /*
 Plugin Name: 		GoUrl Easy Digital Downloads (EDD) - Bitcoin Altcoin Payment Gateway
 Plugin URI: 		https://gourl.io/bitcoin-easy-digital-downloads-edd.html
-Description:		Provides a <a href="https://gourl.io">GoUrl.io</a> Bitcoin/Altcoin Payment Gateway for <a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads 2.4.2+</a>. Direct Integration on your website, no external payment pages opens (as other payment gateways offer). Accept Bitcoin, Litecoin, Paycoin, Dogecoin, Dash, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Vericoin, Peercoin, MonetaryUnit payments online. You will see the bitcoin/altcoin payment statistics in one common table on your website. No Chargebacks, Global, Secure. All in automatic mode.
-Version: 			1.0.1
+Description:		Provides a <a href="https://gourl.io">GoUrl.io</a> Bitcoin/Altcoin Payment Gateway for <a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads 2.4.2+</a>. Direct Integration on your website, no external payment pages opens (as other payment gateways offer). Accept Bitcoin, BitcoinCash, Litecoin, Dash, Dogecoin, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Peercoin, MonetaryUnit payments online. You will see the bitcoin/altcoin payment statistics in one common table on your website. No Chargebacks, Global, Secure. All in automatic mode.
+Version: 			1.0.2
 Author: 			GoUrl.io
 Author URI: 		https://gourl.io
 License: 			GPLv2
@@ -84,7 +84,7 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 		
 		private $payments 			= array();
 		private $languages 			= array();
-		private $coin_names			= array('BTC' => 'bitcoin', 'LTC' => 'litecoin', 'XPY' => 'paycoin', 'DOGE' => 'dogecoin', 'DASH' => 'dash', 'SPD' => 'speedcoin', 'RDD' => 'reddcoin', 'POT' => 'potcoin', 'FTC' => 'feathercoin', 'VTC' => 'vertcoin', 'VRC' => 'vericoin', 'PPC' => 'peercoin', 'MUE' => 'monetaryunit');
+		private $coin_names			= array('BTC' => 'bitcoin', 'BCH' => 'bitcoincash', 'LTC' => 'litecoin', 'DASH' => 'dash', 'DOGE' => 'dogecoin', 'SPD' => 'speedcoin', 'RDD' => 'reddcoin', 'POT' => 'potcoin', 'FTC' => 'feathercoin', 'VTC' => 'vertcoin', 'PPC' => 'peercoin', 'MUE' => 'monetaryunit');
 		private $mainplugin_url		= '';
 		private $url				= '';
 		private $url2				= '';
@@ -383,8 +383,8 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 	    		$arr = $gourl->coin_names();
 	    		if (isset($arr[$currency])) 
 	    		{
-	    			if ($currency == "BTC") 	$decimals = 4;
-	    			elseif (in_array($currency, array("LTC", "XPY", "DASH"))) $decimals = 3;
+	    			if (in_array($currency, array("BTC", "BCH"))) 	$decimals = 4;
+	    			elseif (in_array($currency, array("LTC", "DASH"))) $decimals = 3;
 	    			else $decimals = 0;
 	    		}
 	    	}
@@ -654,7 +654,7 @@ if (!function_exists('gourl_edd_gateway_load') && !function_exists('gourl_edd_ac
 
 	
  }
- // end gourl_edd_gateway_load()  
+ // end gourl_edd_gateway_load()
 
 
 }

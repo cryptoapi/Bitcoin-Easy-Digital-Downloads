@@ -2,19 +2,19 @@
 GoUrl Easy Digital Downloads (EDD) - Bitcoin Altcoin Payment Gateway
 -----------------------------------------------------------
 
-Version 1.0.1
+Version 1.0.2
 
 **Wordpress Plugin provides a Bitcoin/Altcoin Payment Gateway for Easy Digital Downloads (EDD) 2.4.2+ or higher.**
 
-Accept Bitcoin, Litecoin, Paycoin, Dogecoin, Dash, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Vericoin, Peercoin, MonetaryUnit on Website Online
+Accept Bitcoin, BitcoinCash, Litecoin, Dash, Dogecoin, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Peercoin, MonetaryUnit on Website Online
 
 * Author URI: [https://gourl.io](https://gourl.io)
 * Plugin Page: [https://gourl.io/bitcoin-easy-digital-downloads-edd.html](https://gourl.io/bitcoin-easy-digital-downloads-edd.html)
 * Wordpress Page: [https://wordpress.org/plugins/gourl-bitcoin-easy-digital-downloads-edd/](https://wordpress.org/plugins/gourl-bitcoin-easy-digital-downloads-edd/)
 * Screenshots: [https://gourl.io/bitcoin-easy-digital-downloads-edd.html#screenshot](https://gourl.io/bitcoin-easy-digital-downloads-edd.html#screenshot)
 * Requires at least: Wordpress 3.5 and Easy Digital Downloads 2.4.2
-* Tested up to: Wordpress 4.4 and Easy Digital Downloads 2.4.2 
-* Stable Tag: 1.0.1
+* Tested up to: Wordpress 4.9 and Easy Digital Downloads 2.4.2 
+* Stable Tag: 1.0.2
 * License: GNU Version 2 or Any Later Version
 
 
@@ -82,3 +82,4 @@ Plugin Options
   
 # ![Easy-Digital-Downloads-Plugin-Options](https://gourl.io/images/edd/screenshot-1.png)
  
+      

@@ -3,14 +3,14 @@ Contributors: gourl, GoUrl.io
 Plugin Name: GoUrl Easy Digital Downloads (EDD) - Bitcoin Altcoin Payment Gateway
 Plugin URI: https://gourl.io/bitcoin-easy-digital-downloads-edd.html
 Author URI: https://gourl.io 
-Tags: easy digital downloads, edd, bitcoin, bitcoins, gourl, cryptocurrency, btc, coinbase, bitpay, ecommerce, paypal, accept bitcoin, shop, payment, payment gateway, digital downloads, download, downloads, e-commerce, e-downloads, e-store, ecommerce, eshop, selling, wp ecommerce, litecoin, dogecoin, darkcoin, dash, speedcoin, vertcoin, reddcoin, feathercoin, vericoin, potcoin, paycoin, monetaryunit, peercoin
+Tags: easy digital downloads, edd, bitcoin, bitcoincash, bitcoin cash, bitcoins, gourl, cryptocurrency, btc, coinbase, bitpay, ecommerce, paypal, accept bitcoin, shop, payment, payment gateway, digital downloads, download, downloads, e-commerce, e-downloads, e-store, ecommerce, eshop, selling, wp ecommerce, litecoin, dogecoin, dash, speedcoin, vertcoin, reddcoin, feathercoin, potcoin, monetaryunit, peercoin
 Requires at least: 3.5
-Tested up to: 4.5
-Stable Tag: 1.0.1
+Tested up to: 4.9
+Stable Tag: 1.0.2
 License: GNU Version 2 or Any Later Version
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Provides Bitcoin/Altcoin Payment Gateway for Easy Digital Downloads (EDD) 2.4 or higher. Accept Bitcoin, Litecoin, Dogecoin, Dash, Paycoin, etc online
+Provides Bitcoin/Altcoin Payment Gateway for Easy Digital Downloads (EDD) 2.4 or higher. Accept Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Dash, etc online
 
 
 
@@ -22,7 +22,7 @@ Wordpress Plugin for Easy Digital Downloads Features -
 
 * 100% Free Open Source Plugin on [Github.com](https://github.com/cryptoapi/Bitcoin-Easy-Digital-Downloads)
 * Provides a Cryptocurrency Payment Gateway for [Easy Digital Downloads 2.4.2 or higher](https://wordpress.org/plugins/easy-digital-downloads/)
-* Accept Bitcoin, Litecoin, Paycoin, Dogecoin, Dash, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Vericoin, Peercoin, MonetaryUnit payments in Easy Digital Downloads
+* Accept Bitcoin, BitcoinCash, Litecoin, Dash, Dogecoin, Speedcoin, Reddcoin, Potcoin, Feathercoin, Vertcoin, Peercoin, MonetaryUnit payments in Easy Digital Downloads
 * No Monthly Fee, No Bank Account Needed, Transaction Fee from 0%
 * No Chargebacks, Global, Secure. All in automatic mode.
 * Get crypto payments straight to your bitcoin/altcoin wallet addresses. [Read here](https://gourl.io/#usd) how to convert cryptocurrency to USD/EUR/etc
@@ -91,8 +91,13 @@ In the search field type "GoUrl Easy Digital Downloads" and click Search Plugins
 
 == Changelog ==
 
+= 1.0.2 =
+* Added Bitcoin Cash (BCH / BCC)
+
 = 1.0.1 =
 Minor updates
 
 = 1.0 =
 Initial Release
+
+       

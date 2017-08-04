@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GoUrl Easy Digital Downloads (EDD) - Bitcoin Altcoin "
 "Payment Gateway Addon\n"
-"POT-Creation-Date: 2016-02-05 14:01-0000\n"
-"PO-Revision-Date: 2016-02-05 14:01-0000\n"
+"POT-Creation-Date: 2017-08-04 12:42+0100\n"
+"PO-Revision-Date: 2017-08-04 12:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -61,9 +61,9 @@ msgid ""
 "version."
 msgstr ""
 
-#: gourl-edd.php:121 gourl-edd.php:144 gourl-edd.php:478 gourl-edd.php:483
-#: gourl-edd.php:488 gourl-edd.php:494 gourl-edd.php:513 gourl-edd.php:520
-#: gourl-edd.php:534
+#: gourl-edd.php:121 gourl-edd.php:144 gourl-edd.php:483 gourl-edd.php:488
+#: gourl-edd.php:493 gourl-edd.php:499 gourl-edd.php:518 gourl-edd.php:525
+#: gourl-edd.php:539
 msgid "Information"
 msgstr ""
 
@@ -230,40 +230,40 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: gourl-edd.php:436
+#: gourl-edd.php:438
 msgid "Guest"
 msgstr ""
 
-#: gourl-edd.php:437
+#: gourl-edd.php:439
 #, php-format
 msgid "Order Created by %s. <br/>Awaiting cryptocurrency payment ..."
 msgstr ""
 
-#: gourl-edd.php:445
+#: gourl-edd.php:447
 msgid "Payment Error"
 msgstr ""
 
-#: gourl-edd.php:445
+#: gourl-edd.php:447
 #, php-format
 msgid ""
 "Payment creation failed while processing Bitcoin/Altcoin purchase. Payment "
 "data: %s"
 msgstr ""
 
-#: gourl-edd.php:479
+#: gourl-edd.php:484
 msgid ""
 "The GoUrl payment plugin was called to process a payment but could not "
 "retrieve the order details. Cannot continue!"
 msgstr ""
 
-#: gourl-edd.php:484
+#: gourl-edd.php:489
 #, php-format
 msgid ""
 "This order's status is '%s' - it cannot be paid for. Please contact us if "
 "you need assistance."
 msgstr ""
 
-#: gourl-edd.php:489
+#: gourl-edd.php:494
 #, php-format
 msgid ""
 "Please try a different payment method. Admin need to install and activate "
@@ -271,7 +271,7 @@ msgid ""
 "accept Bitcoin/Altcoin Payments online."
 msgstr ""
 
-#: gourl-edd.php:495
+#: gourl-edd.php:500
 #, php-format
 msgid ""
 "Sorry, but there was an error processing your order. Please try a different "
@@ -279,20 +279,20 @@ msgid ""
 "not configured / %s not activated)."
 msgstr ""
 
-#: gourl-edd.php:515
+#: gourl-edd.php:520
 msgid ""
 "You need first to login or register on the website to make Bitcoin/Altcoin "
 "Payments"
 msgstr ""
 
-#: gourl-edd.php:521
+#: gourl-edd.php:526
 #, php-format
 msgid ""
 "This order's amount is %s - it cannot be paid for. Please contact us if you "
 "need assistance."
 msgstr ""
 
-#: gourl-edd.php:535
+#: gourl-edd.php:540
 #, php-format
 msgid ""
 "Sorry, but there was an error processing your order. Please try later or use "
@@ -300,37 +300,37 @@ msgid ""
 "from Google Finance"
 msgstr ""
 
-#: gourl-edd.php:551
+#: gourl-edd.php:556
 msgid "Pay Now -"
 msgstr ""
 
-#: gourl-edd.php:553
+#: gourl-edd.php:558
 msgid ""
 "Sorry, but there was an error processing your order. Please try a different "
 "payment method."
 msgstr ""
 
-#: gourl-edd.php:562
+#: gourl-edd.php:567
 #, php-format
 msgid "%s Payment ID: #%s"
 msgstr ""
 
-#: gourl-edd.php:615
+#: gourl-edd.php:620
 msgid "Yes"
 msgstr ""
 
-#: gourl-edd.php:615
+#: gourl-edd.php:620
 msgid "No"
 msgstr ""
 
-#: gourl-edd.php:622
+#: gourl-edd.php:627
 #, php-format
 msgid ""
 "<b>%s</b> Payment Received <br/>%s <br/><a href='%s'>Payment ID: %s</a>. <br/"
 ">Awaiting network confirmation..."
 msgstr ""
 
-#: gourl-edd.php:631
+#: gourl-edd.php:636
 #, php-format
 msgid "%s Payment ID: <a href='%s'>%s</a> - <b>Confirmed</b>"
 msgstr ""
